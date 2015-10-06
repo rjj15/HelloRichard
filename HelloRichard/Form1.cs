@@ -17,6 +17,7 @@ namespace HelloRichard
     public partial class Form1 : Form
     {
         public int up1 = 0;
+        public int checkred = 4;  //to check if current quote is negative
         public string ticker1="";
         public string yahoo = "http://download.finance.yahoo.com/d/quotes.csv?s=";
         public string endyahoo = "&f=sl1d1t1c1ohgv&e=.csv";
@@ -64,8 +65,10 @@ namespace HelloRichard
                 string text = RT1.Text;
                 char[] separatingChars = { '"', '"', ',', ',' };
                 string[] words = text.Split(separatingChars, System.StringSplitOptions.RemoveEmptyEntries);
-                System.Console.WriteLine("words4 is:" +words[4]);
-                if (words[4].Contains("-"))
+                System.Console.WriteLine("words4 is:" +words[checkred]);
+                
+                if (words[checkred].Contains("-"))
+
                 {
                     //if stock is negative change background to Red
                     RT1.BackColor = System.Drawing.Color.Red;
@@ -79,6 +82,7 @@ namespace HelloRichard
                     words[4] = null;
                     text = null;
                 }
+                checkred = checkred + 9;
                 //foreach (string s in words)
                 // {
 
