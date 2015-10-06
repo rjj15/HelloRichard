@@ -1,0 +1,27 @@
+﻿A new Git repository has been created for you in C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard.
+Opening repositories:
+C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard.vssscc
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\HelloRichard.csproj.vspscc
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\.vs\config\applicationhost.config
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\.vs\HelloRichard\v14\.suo
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.exe
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.exe.config
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.pdb
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.vshost.exe
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.vshost.exe.config
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\bin\Debug\HelloRichard.vshost.exe.manifest
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\DesignTimeResolveAssemblyReferences.cache
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\DesignTimeResolveAssemblyReferencesInput-MININT-P0RBK53.cache
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.csproj.FileListAbsolute-MININT-P0RBK53.txt
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.csproj.FileListAbsolute.txt
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.csproj.GenerateResource.Cache
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.csprojResolveAssemblyReference.cache
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.exe
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.Form1.resources
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.pdb
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\HelloRichard.Properties.Resources.resources
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Ignored file: C:\Users\dell330\OneDrive\code\HelloRichard\HelloRichard\Visual Studio 2015\Projects\HelloRichard\HelloRichard\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
