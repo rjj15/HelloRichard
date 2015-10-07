@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            this.getquote = new System.Windows.Forms.Button();
             this.TB1 = new System.Windows.Forms.TextBox();
             this.LB1 = new System.Windows.Forms.Label();
             this.RT1 = new System.Windows.Forms.RichTextBox();
             this.TB2 = new System.Windows.Forms.TextBox();
             this.nullpop = new System.Windows.Forms.ErrorProvider(this.components);
-            this.button2 = new System.Windows.Forms.Button();
+            this.quitbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nullpop)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // getquote
             // 
-            this.button1.Location = new System.Drawing.Point(132, 454);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 74);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Get Quote";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.getquote.Location = new System.Drawing.Point(115, 28);
+            this.getquote.Name = "getquote";
+            this.getquote.Size = new System.Drawing.Size(135, 52);
+            this.getquote.TabIndex = 0;
+            this.getquote.Text = "Get Quote";
+            this.getquote.UseVisualStyleBackColor = true;
+            this.getquote.Click += new System.EventHandler(this.button1_Click);
             // 
             // TB1
             // 
@@ -60,7 +60,7 @@
             // LB1
             // 
             this.LB1.AutoSize = true;
-            this.LB1.Location = new System.Drawing.Point(250, 28);
+            this.LB1.Location = new System.Drawing.Point(274, 28);
             this.LB1.Name = "LB1";
             this.LB1.Size = new System.Drawing.Size(100, 20);
             this.LB1.TabIndex = 2;
@@ -87,28 +87,28 @@
             this.nullpop.ContainerControl = this;
             this.nullpop.RightToLeftChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button2
+            // quitbutton
             // 
-            this.button2.ForeColor = System.Drawing.Color.DarkRed;
-            this.button2.Location = new System.Drawing.Point(296, 454);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 74);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Quit";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.quitbutton.ForeColor = System.Drawing.Color.DarkRed;
+            this.quitbutton.Location = new System.Drawing.Point(115, 92);
+            this.quitbutton.Name = "quitbutton";
+            this.quitbutton.Size = new System.Drawing.Size(135, 74);
+            this.quitbutton.TabIndex = 5;
+            this.quitbutton.Text = "Quit";
+            this.quitbutton.UseVisualStyleBackColor = true;
+            this.quitbutton.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1268, 540);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.quitbutton);
             this.Controls.Add(this.TB2);
             this.Controls.Add(this.RT1);
             this.Controls.Add(this.LB1);
             this.Controls.Add(this.TB1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.getquote);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nullpop)).EndInit();
@@ -119,13 +119,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button getquote;
         private System.Windows.Forms.TextBox TB1;
         private System.Windows.Forms.Label LB1;
         private System.Windows.Forms.TextBox TB2;
         public System.Windows.Forms.RichTextBox RT1;
         private System.Windows.Forms.ErrorProvider nullpop;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button quitbutton;
     }
 }
 

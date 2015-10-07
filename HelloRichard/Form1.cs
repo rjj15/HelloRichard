@@ -22,7 +22,7 @@ namespace HelloRichard
         public string yahoo = "http://download.finance.yahoo.com/d/quotes.csv?s=";
         public string endyahoo = "&f=sl1d1t1c1ohgv&e=.csv";
     //lists are not being used yet
-        public List<string> data = new List<string>();
+        public List<string>data = new List<string>();
         public List<string>titles = new List<string>();
         public List<string>row = new List<string>();
         List<string> Stockcollection = new List<string>();
@@ -66,7 +66,11 @@ namespace HelloRichard
                 char[] separatingChars = { '"', '"', ',', ',' };
                 string[] words = text.Split(separatingChars, System.StringSplitOptions.RemoveEmptyEntries);
                 System.Console.WriteLine("words4 is:" +words[checkred]);
-                
+               //foreach (string s in words)
+                //{
+                  //  row.Add(words(s));
+                   // Console.WriteLine(words(s));
+                //}
                 if (words[checkred].Contains("-"))
 
                 {
@@ -83,18 +87,15 @@ namespace HelloRichard
                     text = null;
                 }
                 checkred = checkred + 9;
-                //foreach (string s in words)
-                // {
-
-                // System.Console.WriteLine(words(s));
-                // }
+                
 
 
             }
 
             else
             {
-                MessageBox.Show("empty Ticker!");
+                MessageBox.Show("empty Ticker!", "Warning"  );
+
 
             }
         
@@ -109,8 +110,15 @@ namespace HelloRichard
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Quit Really!!");
-            Application.Exit();
+            DialogResult result2 = MessageBox.Show("Do you Really Want TO quit?",
+      "Important Query",
+      MessageBoxButtons.YesNoCancel,
+      MessageBoxIcon.Exclamation);
+            if (   result2 == DialogResult.Yes )
+            {
+                Application.Exit();
+            }
+            
         }
     }
 }
