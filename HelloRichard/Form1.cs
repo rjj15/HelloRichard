@@ -55,7 +55,7 @@ namespace HelloRichard
         {
             ++up1;
             LB1.Text = "Count is: " + up1;
-            if (TB1 != null)
+            if (!String.IsNullOrWhiteSpace(TB1.Text))
             {
                 //send value of TB1 to Output for debugging
                 System.Diagnostics.Trace.WriteLine("TB1" + TB1);
